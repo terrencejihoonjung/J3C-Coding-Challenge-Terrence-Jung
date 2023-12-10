@@ -13,15 +13,13 @@ Then, follow the command line prompts and choose React + TypeScript.
 ### Tailwind CSS Setup
 To setup TailwindCSS with a Vite project, run the following commands:
 
-<code>
-npm install -D tailwindcss postcss autoprefixer
+<code>npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 </code>
 
 Next, in the tailwind.config file, add paths to all template files in the content object:
 
-<code>
-/**@type {import('tailwindcss').Config}*/
+<code>/**@type {import('tailwindcss').Config}*/
 export default {
   content: [
     "./index.html",
@@ -36,8 +34,7 @@ export default {
 
 Finally, add the following to your index.css file:
 
-<code>
-@tailwind base;
+<code>@tailwind base;
 @tailwind components;
 @tailwind utilities;
 </code>
