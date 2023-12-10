@@ -1,54 +1,65 @@
+Certainly! Here's the updated text with GitHub Markdown syntax:
+
+````markdown
 # J3C-Coding-Challenge-Terrence-Jung
 
 ## Setup
-For this coding challenge, I will be using React/TypeScript, TailwindCSS, and Framer Motion. 
+
+For this coding challenge, I will be using React/TypeScript, TailwindCSS, and Framer Motion.
 
 ### React + TypeScript Setup
-I will be using vite to setup my react/typescript project. To start a vite project:
 
-<code>npm create vite@latest</code>
+I will be using Vite to set up my React/TypeScript project. To start a Vite project, run:
 
-Then, follow the command line prompts and choose React + TypeScript. 
+```bash
+npm create vite@latest
+```
+````
+
+Follow the command line prompts and choose React + TypeScript.
 
 ### Tailwind CSS Setup
-To setup TailwindCSS with a Vite project, run the following commands:
 
-<code>npm install -D tailwindcss postcss autoprefixer
+To set up TailwindCSS with a Vite project, run the following commands:
+
+```bash
+npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
-</code>
+```
 
-Next, in the tailwind.config file, add paths to all template files in the content object:
+Next, in the `tailwind.config` file, add paths to all template files in the `content` object:
 
-<code>/**@type {import('tailwindcss').Config}*/
+```javascript
+/**@type {import('tailwindcss').Config}*/
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {},
   },
   plugins: [],
-}
-</code>
+};
+```
 
-Finally, add the following to your index.css file:
+Finally, add the following to your `index.css` file:
 
-<code>@tailwind base;
+```css
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
-</code>
+```
 
 ### Framer Motion Setup
-To install framer motion, run the following command:
 
-<code>npm install framer-motion</code>
+To install Framer Motion, run the following command:
+
+```bash
+npm install framer-motion
+```
 
 ### Project Startup
+
 First, ensure you have downloaded all of the project dependencies. Make sure that you are in your project directory.
-<code>npm install</code>
 
-Second, run the following command to run your build process:
-<code>npm run dev</code>
-
-## Project Notes
+```bash
+npm install
+```
