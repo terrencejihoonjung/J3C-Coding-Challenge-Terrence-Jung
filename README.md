@@ -63,7 +63,8 @@ npm run dev
 
 ## Project Notes
 
-Time started:
+Time started: 3:40pm PST (Dec 10th, Sunday)
+
 Time ended:
 
 ### Notes
