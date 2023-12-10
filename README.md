@@ -1,6 +1,3 @@
-Certainly! Here's the updated text with GitHub Markdown syntax:
-
-````markdown
 # J3C-Coding-Challenge-Terrence-Jung
 
 ## Setup
@@ -14,7 +11,6 @@ I will be using Vite to set up my React/TypeScript project. To start a Vite proj
 ```bash
 npm create vite@latest
 ```
-````
 
 Follow the command line prompts and choose React + TypeScript.
 
