@@ -54,8 +54,9 @@ npm install framer-motion
 
 ### Project Startup
 
-First, ensure you have downloaded all of the project dependencies. Make sure that you are in your project directory.
+First, ensure you have downloaded all of the project dependencies. Make sure that you are in your project directory. Then run the next command to run your build process.
 
 ```bash
 npm install
+npm run dev
 ```
