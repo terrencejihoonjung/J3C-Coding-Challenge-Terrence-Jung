@@ -52,7 +52,7 @@ To install Framer Motion, run the following command:
 npm install framer-motion
 ```
 
-### Project Startup
+## Project Startup
 
 First, ensure you have downloaded all of the project dependencies. Make sure that you are in your project directory. Then run the next command to run your build process.
 
@@ -60,3 +60,12 @@ First, ensure you have downloaded all of the project dependencies. Make sure tha
 npm install
 npm run dev
 ```
+
+## Project Notes
+
+Time started:
+Time ended:
+
+### Notes
+
+- testing
