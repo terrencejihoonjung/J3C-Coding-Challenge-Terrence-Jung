@@ -69,4 +69,16 @@ Time ended:
 
 ### Notes
 
-- testing
+#### Text Animation
+
+- For text animations static, centered text (unhover) and animations on hover. For the hover animation, I have to make the bottom text visible.
+- Used three span elements inside one span element. This way the 2nd and 3rd span elements are aligned correctly within the button. I made the 1st span element invisible.
+- For animation, I used useAnimationControls to trigger the animation on the span element when a user hovers over the button element.
+- Used a 0.5 duration for onHoverStart and a 0.05 duration for onHoverEnd. The site example has an instantaneous onHoverEnd animation but I was not able to implement that on mine due to an unusual, glitchy movement that happens.
+
+#### Border Animation
+
+- onHoverStart: Green -> Gold -> White
+- onHoverEnd: completely reset
+- starts from the right side and moves along a clockwise path
+- the movement seems to have a slow to fast animation
