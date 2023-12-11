@@ -65,7 +65,7 @@ npm run dev
 
 Time started: 3:40pm PST (Dec 10th, Sunday)
 
-Time ended:
+Time ended: 5:40pm PST (Dec 10th, Sunday)
 
 ### Notes
 
@@ -82,3 +82,8 @@ Time ended:
 - onHoverEnd: completely reset
 - starts from the right side and moves along a clockwise path
 - the movement seems to have a slow to fast animation
+- to implement this animation using framer motion it seems like I need to use an SVG and path element
+
+#### Incomplete
+
+- Border Animation: I wasn't able to figure out how to fit the svg along the button border but was able to get a color gradient animation going. If I had more time, I would place both the SVG element and button element inside a div element and figure out how to set the viewBox correctly.
